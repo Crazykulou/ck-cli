@@ -1,0 +1,27 @@
+{
+	"name": "ck-cli",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.19.0",
+		"chalk": "^2.4.2",
+		"commander": "^2.19.0",
+		"download-git-repo": "^1.1.0",
+		"inquirer": "^6.2.2",
+		"ora": "^3.2.0"
+	},
+	"bin": {
+		"ck": "bin/ck",
+		"ck add": "bin/ck-add",
+		"ck delete": "bin/ck-delete",
+		"ck list": "bin/ck-list",
+		"ck init": "bin/ck-init",
+		"ck token": "bin/ck-token"
+	}
+}
